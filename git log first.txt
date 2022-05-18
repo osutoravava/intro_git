@@ -1,0 +1,95 @@
+[33mcommit ac1073212a125b3fb42de43b17a0864e687e25da[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: osutoravava <osutoravava@gmail.com>
+Date:   Wed May 18 15:07:51 2022 +0900
+
+    git statusコマンドを追記
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex 40ca516..b1098fa 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -3,3 +3,4 @@[m [mGitの練習をしていきます。[m
+ ・git add[m
+ ・git commit[m
+ ・git rm[m
+[32m+[m[32m・git status[m
+
+[33mcommit 8e5129186c12d40b20063c661dd0902e977492d8[m
+Author: osutoravava <osutoravava@gmail.com>
+Date:   Tue May 17 23:54:06 2022 +0900
+
+    複数ファイルのコミット
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex c37367a..40ca516 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -2,3 +2,4 @@[m [mGitの練習をしていきます。[m
+ 基本的なワークフローを学びます。[m
+ ・git add[m
+ ・git commit[m
+[32m+[m[32m・git rm[m
+[1mdiff --git a/second.txt b/second.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4d9b35a[m
+[1m--- /dev/null[m
+[1m+++ b/second.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m新規作成したファイル[m
+
+[33mcommit 71a253f43378c036612c0779a81dff45f851d7be[m
+Author: osutoravava <osutoravava@gmail.com>
+Date:   Tue May 17 23:50:44 2022 +0900
+
+    second.txtを削除
+
+[1mdiff --git a/second.txt b/second.txt[m
+[1mdeleted file mode 100644[m
+[1mindex 8e5e7e6..0000000[m
+[1m--- a/second.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-1 追加したファイル[m
+
+[33mcommit 92747f119dba90ea13cfd88044941e75217988b7[m
+Author: osutoravava <osutoravava@gmail.com>
+Date:   Tue May 17 23:49:17 2022 +0900
+
+    second.txtを追加
+    Please enter the commit message for your changes. Lines starting
+
+[1mdiff --git a/second.txt b/second.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8e5e7e6[m
+[1m--- /dev/null[m
+[1m+++ b/second.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m1 追加したファイル[m
+
+[33mcommit f18e9a44e8f73edd6dd8388dd3bdd8c0e05bf391[m
+Author: osutoravava <osutoravava@gmail.com>
+Date:   Tue May 17 23:44:31 2022 +0900
+
+    add commitのコマンドを追記
+    
+    講座3-4を受講したから
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex e69de29..c37367a 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32mGitの練習をしていきます。[m
+[32m+[m[32m基本的なワークフローを学びます。[m
+[32m+[m[32m・git add[m
+[32m+[m[32m・git commit[m
+
+[33mcommit 22839c36d1589d28705c7d0dae514eaaa3676bce[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: osutoravava <osutoravava@gmail.com>
+Date:   Tue May 17 23:27:18 2022 +0900
+
+    initial commit
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
